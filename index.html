@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гайд на Лиона</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="slick.css">
+    <link rel="stylesheet" type="text/css" href="slick-theme.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script type=”text/javascript” src=”https://code.jquery.com/jquery-migrate-1.4.1.min.js”></script>
+</head>
+<body>
+    <header>
+        <img src="https://i.ytimg.com/vi/l7HDSOAtiDg/maxresdefault.jpg" width="350" draggable="false" alt="Logo">
+        
+        </header>
+        <nav id="menu">
+            <ul>
+              <li><a href="#"> Денис Денисенко</a></li>
+              <li><a href="#"> Итоговый проект</a></li>
+              <li><a href="#"> Узнать больше</a>
+              <ul>
+                  <li><a href="https://dota2.ru/guides/381-dont-steal-plz/">Больше информации по персонажу Lion</a> </li>
+                  <li><a href="https://dota2.ru/guides/368-zeus-by-jb/"> Больше информации по персонажу Zeus</a> </li>
+                  <li><a href="https://dota2.ru/img/heroes/lion/portrait.jpg"> Посмотреть фото персонажа Lion</a> </li>
+                  <li><a href="https://dota2.ru/img/heroes/zeus/portrait.jpg"> Посмотреть фото персонажа Zeus</a> </li>
+              </ul>
+              </li>
+      
+            </ul>
+        </nav>
+        <div class="carousele">
+            <div>
+                <center><img src="https://cybersport.metaratings.ru/upload/iblock/93a/93a670a53b315aec565bc62a09e3613d.jpg"></center>
+            </div>
+            <div>
+                <center><img src="https://images7.alphacoders.com/111/thumb-1920-1110721.png"></center>
+            </div>
+            <div>
+                <center><img src="https://i.playground.ru/i/pix/1693231/image.jpg"></center>
+            </div>
+        </div>
+        
+        <main>
+        <div>
+        <div class="post">
+        <img height="250" src="https://dota2.ru/img/heroes/lion/portrait.jpg" alt="Card image cap">
+        <div>
+        <div class="hero_pics">
+            <div class="abil">
+                <h1>Lion</h1>
+        <h2>Это все его скиллы</h2>
+                <img src="https://dota2.ru/img/heroes/lion/ability1.jpg" alt="Skill_1" width="70">
+                <img src="https://dota2.ru/img/heroes/lion/ability2.jpg" alt="Skill 2" width="70">
+                <img src="https://dota2.ru/img/heroes/lion/ability3.jpg" alt="Skill 3" width="70">  
+                <img src="https://dota2.ru/img/heroes/lion/ability4.jpg" alt="Ult" width="70">
+            </div>
+            <div class="staff">
+                <h3>Нужно покупать эти предметы: <br> Healing Salve,Tango,Gauntlets,Arcane Boots,Blink Dagger</h3>
+            <img src="https://dota2.ru/img/items/healing_salve.jpg" alt="HealingSalve">
+            
+            <img src="https://dota2.ru/img/items/tango.jpg" alt="Tango">
+            
+            <img src="https://dota2.ru/img/items/gauntlets_of_strength.jpg" alt="Gaunt">
+            
+            <img src="https://dota2.ru/img/items/arcane_boots.jpg" alt="Arcane">
+            
+            <img src="https://dota2.ru/img/items/blink_dagger.jpg" alt="Blink">
+        
+            </div>    
+        </div>
+        
+        </div>
+        
+        
+        <div id="HealingSalve">
+        
+        </div>
+        <div id="Tango">
+        
+        </div>
+        <div id="Gauntlets">
+        
+        </div>
+        <div id="Arcane">
+        
+        </div>
+        <div id="Blink">
+        
+        </div>
+        </main>
+        <footer>
+        <div class="post">
+        <img height="250" src="https://dota2.ru/img/heroes/zeus/portrait.jpg" alt="Zeus">
+        <div>
+        <h4>Zeus</h4>
+        <h5>Это все его скиллы</h5>
+        <img src="https://joborgame.ru/cdn/dota2/images/skill/zeus-arc-lightning.png" alt="Skill 1" width="70">
+        
+        <img src="https://joborgame.ru/cdn/dota2/images/skill/zeus-lightning-bolt.png" alt="Skill 2" width="70">
+        
+        <img src="https://joborgame.ru/cdn/dota2/images/skill/zeus-static-field.png" alt="Skill 3" width="70">
+        
+        <img src="https://joborgame.ru/cdn/dota2/images/skill/zeus-thundergods-wrath.png" alt="Ult" width="70">
+        <h6>Нужно покупать эти предметы:Bootle,Phase Boots,Aghanim Scepetr,Force Staff,Bloodstone</h6>
+        <div id="Bootle">
+        <img src="https://dota2.ru/img/items/bottle.jpg" alt="Bootle">
+        </div>
+        <div id="Phase">
+        <img src="https://dota2.ru/img/items/phase_boots.jpg" alt="Phase">
+        </div>
+        <div id="Aghanim">
+        <img src="https://dota2.ru/img/items/aghanims_scepter.jpg" alt="Aghanim">
+        </div>
+        <div id="Force">
+        <img src="https://dota2.ru/img/items/force_staff.jpg" alt="Force">
+        </div>
+        <div id="Blood">
+        <img src="https://dota2.ru/img/items/bloodstone.jpg" alt="Blood">
+        </div> 
+        </footer> 
+        <script src="slick.min.js"></script>
+        <script>
+            $('div').ready(function(){
+            $('.carousele').slick(
+            {
+                arrows: true,
+                autoplay: true,
+            });
+            });
+        </script>
+</body>
+</html>
+
